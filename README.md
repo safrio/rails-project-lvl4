@@ -1,5 +1,6 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/safrio/rails-project-lvl4/workflows/hexlet-check/badge.svg)](https://github.com/safrio/rails-project-lvl4/actions)
+[![Main](https://github.com/safrio/rails-project-lvl4/actions/workflows/main.yml/badge.svg)](https://github.com/safrio/rails-project-lvl4/actions/workflows/main.yml)
 
 # Анализатор качества репозиториев
 
