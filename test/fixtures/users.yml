@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+admin:
+  email: admin@email
+  name: Admin Name
+  admin: true
+
+user:
+  email: user@email
+  name: User Name
+  admin: false
