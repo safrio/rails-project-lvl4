@@ -1,0 +1,16 @@
+doctype html
+html.h-100 lang="#{I18n.locale}"
+  head
+    = render 'layouts/shared/head'
+  body.d-flex.flex-column.h-100
+    = render 'layouts/shared/nav'
+
+    .container.my-4
+      .my-2
+        = render_flash_messages dismissible: true
+      main
+        - if content_for?(:header)
+          h1.h2.mb-5 = yield :header
+        = yield
+
+= render 'layouts/shared/footer'
