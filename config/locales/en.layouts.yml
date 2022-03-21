@@ -1,0 +1,9 @@
+en:
+  layouts:
+    shared:
+      head:
+        title: Repo analyzer
+      nav:
+        application_name: Repo analyzer
+        sign_in: Sign in with github
+        sign_out: Sign out
