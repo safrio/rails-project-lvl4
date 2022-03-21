@@ -3,9 +3,7 @@
 admin:
   email: admin@email
   name: Admin Name
-  admin: true
 
 user:
   email: user@email
   name: User Name
-  admin: false
