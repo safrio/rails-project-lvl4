@@ -1,9 +1,6 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-admin:
-  email: admin@email
-  name: Admin Name
-
-user:
+user1:
   email: user@email
-  name: User Name
+  nickname: User Name
+  token: token1
