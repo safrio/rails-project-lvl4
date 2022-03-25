@@ -12,7 +12,9 @@ class Web::AuthControllerTest < ActionDispatch::IntegrationTest
       uid: '12345',
       info: {
         email: Faker::Internet.email,
-        nickname: Faker::Name.first_name,
+        nickname: Faker::Name.first_name
+      },
+      credentials: {
         token: Faker::Internet.device_token
       }
     }
