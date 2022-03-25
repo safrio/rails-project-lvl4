@@ -31,6 +31,7 @@ gem 'bootsnap', '>= 1.4.4', require: false
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
+  gem 'dotenv-rails'
   gem 'faker'
   gem 'rubocop-performance'
   gem 'rubocop-rails'
@@ -56,6 +57,7 @@ end
 group :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '>= 3.26'
+  gem 'minitest-power_assert'
   gem 'selenium-webdriver'
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'webdrivers'
@@ -64,7 +66,9 @@ end
 gem 'aasm'
 gem 'flash_rails_messages'
 gem 'kaminari'
-gem 'omniauth-github'
+gem 'octokit', '~> 4.0'
+gem 'omniauth'
+gem 'omniauth-github', github: 'omniauth/omniauth-github', branch: 'master'
 gem 'omniauth-rails_csrf_protection'
 gem 'rollbar'
 gem 'simple_form'
