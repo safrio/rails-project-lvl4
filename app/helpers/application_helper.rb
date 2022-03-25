@@ -13,7 +13,6 @@ module ApplicationHelper
   end
 
   def active?(path, options = {})
-    # raise options.inspect
     if options.key? :active_if
       'active' if options[:active_if]
     elsif current_page?(path)

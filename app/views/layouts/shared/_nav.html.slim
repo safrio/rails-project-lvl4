@@ -3,11 +3,8 @@
     a.d-flex.align-items-center.mb-2.mb-md-0.me-5.text-dark.text-decoration-none.fs-4(href="/") = t('.application_name')
     ul.nav.nav-pills.flex-grow-1
       - if signed_in?
-        = nav_menu_item t('.add_bulletin'), new_bulletin_path
-        = nav_menu_item t('.profile'), profile_path
+        = nav_menu_item t('.repositories'), root_path
     ul.nav.nav-pills
-      - if admin?
-        = nav_menu_item t('.admin'), admin_root_path
       - if signed_in?
         = nav_menu_item t('.sign_out'), auth_path, method: :delete
       - else
