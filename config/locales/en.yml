@@ -1,3 +1,4 @@
 en:
   restricted_content: You are not authorized to perform this action.
+  auth_failure: Authenticity error
   are_you_sure: Are you sure?
